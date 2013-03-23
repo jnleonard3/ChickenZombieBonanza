@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" android:orientation="vertical">
+
+	<RelativeLayout android:id="@+id/shootingoverlay" android:layout_height="match_parent" android:layout_width="match_parent">
+		<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentTop="false" android:layout_marginBottom="15dp" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:background="@color/black" android:width="150dp" android:text="@string/navigationgamehealthlabel" android:id="@+id/healthTextView"></TextView>
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/itemsLayout" android:layout_alignBottom="@+id/healthTextView" android:layout_alignParentRight="true" android:layout_marginRight="15dp"></LinearLayout>
+	</RelativeLayout>
+</FrameLayout>

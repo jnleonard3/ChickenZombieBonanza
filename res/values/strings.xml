@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ChickenZombieBonanzaActivity!</string>
+    <string name="app_name">ChickenZombieBonanza</string>
+    <string name="settingButton">Settings</string>
+    <color name="white">#FFFFFF</color>
+    <string name="Easy">Easy</string>
+    <string name="Medium">Medium</string>
+    <string name="Hard">Hard</string>
+    <string name="PlayArea">Show play area</string>
+    <string name="overlay_label">Enemy Overlay Button</string>
+    <string name="Apple">Apply</string>
+    <string name="settingsText">Settings</string>
+    <string name="shootingGameText">Shooting Game</string>
+    <string name="navigationgamescorelabel">Score:</string>
+    <string name="navigationgamehealthlabel">Health:</string>
+    <color name="black">#000000</color>
+    <string name="warningtext">Be aware of your surroundings at all times.</string>
+</resources>

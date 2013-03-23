@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1">
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/playAreaButton" android:text="@string/PlayArea"></Button>
+	</LinearLayout>
+	<Button android:text="Back" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/backButton"></Button>
+	<RadioGroup android:layout_height="wrap_content" android:id="@+id/radioGroupDifficulty" android:layout_width="wrap_content">
+		<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/Easy" android:id="@+id/radioEasy"></RadioButton>
+		<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Medium" android:id="@+id/radioMedium"></RadioButton>
+		<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Hard" android:id="@+id/radioHard"></RadioButton>
+	</RadioGroup>
+	<TextView android:text="Set Radius" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+	<LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="146dp">
+		<EditText android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="numberDecimal" android:id="@+id/playAreaRadius">
+			<requestFocus></requestFocus>
+		</EditText>
+	</LinearLayout>
+	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/buttonApply" android:text="@string/Apple"></Button>
+</LinearLayout>
